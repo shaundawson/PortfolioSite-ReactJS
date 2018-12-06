@@ -1,11 +1,15 @@
 {
   "name": "portfolio-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage" : ".",
+
   "dependencies": {
+    "forever": "^0.15.3",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "serve": "^10.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
