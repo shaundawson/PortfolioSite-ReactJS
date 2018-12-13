@@ -7,7 +7,7 @@ export default class Portfolio extends Component {
         <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check out my work.</h1>
+            <h1>portfolio.</h1>
             <h6>bytes of code.</h6>
             <br></br>
             {/* portfolio-wrapper */}
@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt src="images/portfolio/coffee.jpg" />
+                    <img alt src="images/portfolio/coffee.jpg"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>docupicks.com</h5>

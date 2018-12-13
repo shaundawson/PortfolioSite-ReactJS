@@ -25,8 +25,10 @@ export default class Header extends Component {
           <li><a href="https://www.facebook.com/iamsdawson"  target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" /></a></li>
           <li><a href="https://twitter.com/iamsdawson" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" /></a></li>
           <li><a href="https://www.linkedin.com/in/iamsdawson/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a></li>
-          <li><a href="https://github.com/shaundawson" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" /></a></li>
           <li><a href="https://www.instagram.com/iamsdawson/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" /></a></li>
+          <li><a href="https://github.com/shaundawson" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" /></a></li>
+          <li><a href="https://youtube.com/iamsdawson" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube" /></a></li>
+          <li><a href="https://vimeo.com/iamsdawson" target="_blank" rel="noopener noreferrer"><i className="fa fa-vimeo-square" /></a></li>
         </ul>
       </div>
     </div>
