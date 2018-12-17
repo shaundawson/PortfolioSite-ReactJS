@@ -11,15 +11,15 @@ export default class About extends Component {
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactName" name="contactName" defaultValue={""} />
+                  <input type="text"  size={35} id="contactName" name="contactName" defaultValue={""} />
                 </div>
                 <div>
                   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" defaultValue={""} />
+                  <input type="text" size={35} id="contactEmail" name="contactEmail" defaultValue={""} />
                 </div>
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" defaultValue={""} />
+                  <input type="text" size={35} id="contactSubject" name="contactSubject" defaultValue={""} />
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
