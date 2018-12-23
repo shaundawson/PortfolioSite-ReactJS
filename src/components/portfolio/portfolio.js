@@ -7,7 +7,7 @@ export default class Portfolio extends Component {
         <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check out my work.</h1>
+            <h1>Portfolio</h1>
             <h6>bytes of code.</h6>
             <br></br>
             {/* portfolio-wrapper */}
@@ -15,11 +15,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt src="images/portfolio/coffee.jpg" />
+                    <img alt src="images/portfolio/blackfriendsdinner.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>docupicks.com</h5>
-                        <p>Web Design & Development</p>
+                        <h5>blackfriendsdinner.com</h5>
+                        <p> Production, Web Design & Development</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -29,10 +29,10 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt src="images/portfolio/console.jpg" />
+                    <img alt src="images/portfolio/devjobhunter.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>blackfriendsdinner.com</h5>
+                        <h5>devjobhunter.com</h5>
                         <p>Web Design & Development</p>
                       </div>
                     </div>
@@ -43,10 +43,10 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt src="images/portfolio/judah.jpg" />
+                    <img alt src="images/portfolio/reach.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>devjobtools.com</h5>
+                        <h5>reachapp.com</h5>
                         <p>Web Design & Development</p>
                       </div>
                     </div>
@@ -57,11 +57,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt src="images/portfolio/into-the-light.jpg" />
+                    <img alt src="images/portfolio/docupicks.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>momoya</h5>
-                        <p>Web Development</p>
+                        <h5>docupicks.com</h5>
+                        <p>Web Design & Development</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -70,7 +70,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
 
               <hr></hr>
-              <h6> documentaries.</h6>
+              <h6> pixels.</h6>
               <br></br>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
@@ -130,53 +130,54 @@ export default class Portfolio extends Component {
               </div>  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
+
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-blackfriendsdinner.jpg" alt />
             <div className="description-box">
-              <h4>Coffee Cup</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+              <h4>Black Friends Dinner Podcast</h4>
+              <p>Where we navigate what #AllBlackLivesMatter means in a world where they don't, over food and drink made with love by NandiKayyy, Your resident Black Non-Binary Bae. Available on Spotify, Google Play Music and Itunes. </p>
+              <span className="categories"><i className="fa fa-tag" />Audio Production, Web Design, Web Developement</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.blackfriendsdinner.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-01 End */}
           <div id="modal-02" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
             <div className="description-box">
-              <h4>Console</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+              <h4>Dev Job Hunter</h4>
+              <p>DevJobHunter is a platform for developers to find employment based on location. </p>
+              <span className="categories"><i className="fa fa-tag" /> Web Design, Web Development</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.devjobhunter.com" target="_blank" rel="noopener noreferrer" >Visit Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
             <div className="description-box">
-              <h4>Judah</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding</span>
+              <h4>Reach App</h4>
+              <p>Reach is a digital platform where tech brands collaborate with impactful Youtube influencers to expand their brand reach.</p>
+              <span className="categories"><i className="fa fa-tag" />Web Design, Web Development</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.behance.net">Visit Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
           <div id="modal-04" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt />
             <div className="description-box">
-              <h4>Into the Light</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <h4>Docupicks </h4>
+              <p>The docupicks app provides reviews, youtbe trailers and streaming sources for IMDB's top rated documentary films and TV series. Users also have the ability to create a "watch-list" and provide feedback to the community about films they have watched in the past.</p>
+              <span className="categories"><i className="fa fa-tag" />Web Design, Web Development</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="#">Visit Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
