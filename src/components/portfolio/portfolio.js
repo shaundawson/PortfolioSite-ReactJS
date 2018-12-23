@@ -75,11 +75,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
-                    <img alt src="images/portfolio/farmerboy.jpg" />
+                    <img alt src="images/portfolio/nandikayyy.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Farmer Boy</h5>
-                        <p>Branding</p>
+                        <h5>NandiKayyy | Documentary </h5>
+                        <p>Video Production</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -89,11 +89,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title>
-                    <img alt src="images/portfolio/girl.jpg" />
+                    <img alt src="images/portfolio/assignedsex.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Girl</h5>
-                        <p>Photography</p>
+                        <h5>Assigned Sex | Documentary</h5>
+                        <p>Video Production</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -165,7 +165,7 @@ export default class Portfolio extends Component {
               <span className="categories"><i className="fa fa-tag" />Web Design, Web Development</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Visit Website</a>
+              <a href="#">Visit Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
@@ -182,23 +182,23 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-04 End */}
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-nandikayyy.png" alt />
             <div className="description-box">
-              <h4>Farmer Boy</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+              <h4>NandiKayyy: Songs of Revolution Project | Mini Doc (5:50)</h4>
+              <p>Singer/songwriter Nandi Kayyy talks on inspiration and responsibility to reflect the times as a queer artist of color.</p>
+              <span className="categories"><i className="fa fa-tag" />Video Production</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://vimeo.com/271667258" target="_blank" rel="noopener noreferrer">Watch Video</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt />
             <div className="description-box">
-              <h4>Girl</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <h4>Assigned Sex Documentary Project</h4>
+              <p>Five transgender people of color chronicle their transition journey, struggles and triumphs in a series of interviews that spans the course of five years. </p>
+              <span className="categories"><i className="fa fa-tag" />Video Production</span>
             </div>
             <div className="link-box">
               <a href="http://www.behance.net">Details</a>
