@@ -26,49 +26,10 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-02" title>
-                    <img alt src="images/portfolio/devjobhunter.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>devjobhunter.com</h5>
-                        <p>Web Design & Development</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title>
-                    <img alt src="images/portfolio/reach.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>reachapp.com</h5>
-                        <p>Web Design & Development</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04" title>
-                    <img alt src="images/portfolio/docupicks.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>docupicks.com</h5>
-                        <p>Web Design & Development</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-
+             
+        
+        {/* Video Portfolio
+        --------------------------------------------------------------- */}
               <hr></hr>
               <h6> pixels.</h6>
               <br></br>
@@ -78,7 +39,7 @@ export default class Portfolio extends Component {
                     <img alt src="images/portfolio/nandikayyy.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>NandiKayyy | Documentary </h5>
+                        <h5>NandiKayyy </h5>
                         <p>Video Production</p>
                       </div>
                     </div>
@@ -92,7 +53,7 @@ export default class Portfolio extends Component {
                     <img alt src="images/portfolio/assignedsex.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Assigned Sex | Documentary</h5>
+                        <h5>Assigned Sex</h5>
                         <p>Video Production</p>
                       </div>
                     </div>
@@ -100,34 +61,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-07" title>
-                    <img alt src="images/portfolio/origami.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Origami</h5>
-                        <p>Illustrration</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-08" title>
-                    <img alt src="images/portfolio/retrocam.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Retrocam</h5>
-                        <p>Web Development</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div>  {/* item end */}
+              
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
 
@@ -189,7 +123,7 @@ export default class Portfolio extends Component {
               <span className="categories"><i className="fa fa-tag" />Video Production</span>
             </div>
             <div className="link-box">
-              <a href="https://vimeo.com/271667258" target="_blank" rel="noopener noreferrer">Watch Video</a>
+              <a href="https://vimeo.com/271667258" target="_blank" rel="noopener noreferrer">Watch</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
@@ -201,34 +135,10 @@ export default class Portfolio extends Component {
               <span className="categories"><i className="fa fa-tag" />Video Production</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.assignedsex.com">Watch</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-06 End */}
-          <div id="modal-07" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt />
-            <div className="description-box">
-              <h4>Origami</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-07 End */}
-          <div id="modal-08" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt />
-            <div className="description-box">
-              <h4>Retrocam</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-01 End */}
         </div> {/* row End */}
       </section> 
     );
