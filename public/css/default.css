@@ -241,7 +241,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #fa7b73;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -314,7 +314,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#fa7b73 }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -417,7 +417,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #fa7b73;
+   background: #22313d;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -445,7 +445,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #22313d;
+   background: #fa7b73;
    color: #fff;
 }
 
@@ -483,7 +483,6 @@ form { margin-bottom: 24px; }
 fieldset { margin-bottom: 24px; }
 
 input[type="text"],
-input[type="password"],
 input[type="email"],
 textarea,
 select {

@@ -54,13 +54,12 @@ header .banner-text hr {
    width: 45%;
    margin: 18px auto 24px auto;
    border-color: #fa7b73;
-   border-color: #fa7b73;
 }
 
 /* header social links */
 header .social {
    margin: 24px 0;
-   padding: 0;
+   padding-bottom: 50px;
    font-size: 20px;
 
 }
@@ -542,7 +541,7 @@ ul#nav li.current a { color: #fa7b73; }
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: #fa7b73;
 	border: none;
    cursor: pointer;
    height: auto;
